@@ -8,6 +8,6 @@ class BasicOperator{
         double d = Math.pow(x,y);
         double p = x / (double)y;
         System.out.println(p);
-
+        
     }
 }
