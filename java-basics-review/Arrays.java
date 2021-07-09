@@ -12,8 +12,7 @@ class Arrays{
 
         double nums2 = {2.0, 4.0};
         int x = nums[4];
-        System.out.println(x);
-    
+        System.out.println(x);   
 
     }
 }
