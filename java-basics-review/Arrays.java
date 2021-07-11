@@ -10,7 +10,7 @@ class Arrays{
 
         int[] nums = {1,2,3,4,5};
 
-        double nums2 = {2.0, 4.0};
+        double[] nums2 = {2.0, 4.0};
         int x = nums[4];
         System.out.println(x);   
 
