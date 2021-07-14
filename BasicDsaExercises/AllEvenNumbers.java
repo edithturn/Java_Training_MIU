@@ -8,7 +8,7 @@
 public class WhileLoops{
 /*
 Solution:
-01 Get the last digit, number%10
+01 Get the last digit, number%10 | until number grater than zero
   01.1 Last digit is even?
     Divide the number with 10 and took the no decimal parts
     Go to step 01
