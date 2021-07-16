@@ -1,17 +1,25 @@
-// Write a function that takes an array of integers as an argument
-// and returns a value based on the sums of the even and odd numbers
-// in the array. Let X = the sum of the odd numbers in the array and let
-// Y = the sum of the even numbers. The function should return X – Y
-
+//Question Number 02
 public class SumOddAndEven{
     public static void main(String[] args){
-        int[] arr1 = {3,2,1,2,3,2};
-        int[] arr2 = {2,2,3,4,4,0};
-        int[] arr3 = {1,4};
+        int[] arr1 = {1};
+        int[] arr2 = {1,2};
+        int[] arr3 = {1,2,3};
+        int[] arr4 = {1,2,3,4};
+        int[] arr5 = {3,3,4,4};
+        int[] arr6 = {3,2,3,4};
+        int[] arr7 = {4,1,2,3};
+        int[] arr8 = {1,1};
+        int[] arr9 = {};
 
         System.out.println(sumOddOrEven(arr1));
         System.out.println(sumOddOrEven(arr2));
         System.out.println(sumOddOrEven(arr3));
+        System.out.println(sumOddOrEven(arr4));
+        System.out.println(sumOddOrEven(arr5));
+        System.out.println(sumOddOrEven(arr6));
+        System.out.println(sumOddOrEven(arr7));
+        System.out.println(sumOddOrEven(arr8));
+        System.out.println(sumOddOrEven(arr9));
     }
 
     static int sumOddOrEven(int[] arr){
