@@ -1,6 +1,9 @@
 //Question Number 02
+
 public class SumOddAndEven{
+
     public static void main(String[] args){
+        
         int[] arr1 = {1};
         int[] arr2 = {1,2};
         int[] arr3 = {1,2,3};
