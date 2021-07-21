@@ -37,13 +37,13 @@ public  class hasSingleMode{
             count = 0;
         }
         
-        // Examples mod = [1, 2, 1, 2, 1] , mod = [1, 2, 1, 1, 1]
+         // Examples mode = [1, 2, 1, 2, 1] , mode = [1, 2, 1, 1, 1]
         // After get the mod array which containes the number of times a number is repeated
         // Calculate the max value of that array
         System.out.println(" ");
         System.out.println("Unique elements " + Arrays.toString(ans));
         System.out.println("Mode of each element " + Arrays.toString(mode));
-        
+               
         int max = mode[0];
         for (int i = 1; i < mode.length; i++){
             if (mode[i] > max){
