@@ -1,11 +1,3 @@
-// Mode is the most frequently appearing value. Write a function  
-// named hasSingleMode that takes an array argument and returns 1 
-// if the mode value in its  array argument occurs exactly once in the array, otherwise it returns 0.
-// If you are writing in  Java or C#, the function signature is int hasSingleMode(int[ ] ). 
-// If you are writing in C or C++, the function signature is int hasSingleMode(int a[ ], int len) 
-// where len is the length of a. Examples 
-// Array elements Mode values Value returned Comments 
-// 1, -29, 8, 5, -29, 6 -29 1 single mode
 import java.util.Arrays;
 
 public  class hasSingleMode{
