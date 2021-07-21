@@ -5,6 +5,6 @@ public class Main{
         Student bill = new Student("bill");
         Student nirmal = new Student("Nirmal");
 
-        System.out.println(edith.compareTo(bill) > 0);
+        System.out.println(edith.compareTo(bill)  > 0);
 }
 }
