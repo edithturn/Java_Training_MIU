@@ -41,6 +41,7 @@ public  class hasSingleMode{
         // After get the mod array which containes the number of times a number is repeated
         // Calculate the max value of that array
         System.out.println(" ");
+        System.out.println("Original array "+ Arrays.toString((arr)));
         System.out.println("Unique elements " + Arrays.toString(ans));
         System.out.println("Mode of each element " + Arrays.toString(mode));
                
