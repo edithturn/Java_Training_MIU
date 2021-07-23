@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public  class hasSingleMode{
+public  class SingleMode{
 
     public static void main(String [] args){
 
