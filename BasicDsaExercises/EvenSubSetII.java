@@ -10,11 +10,7 @@ public class EvenSubsetII{
 
     }
     static int isEvenSubset(int m , int n){
-        /*
-        m = [ 6 2 ]
-        n = [ 6 4 2 ]
-        */
-
+   
         int result = 0;
 
         for (int i = 2; i < m/2; i+=2){
