@@ -1,4 +1,4 @@
-public class SameNumber{
+public class IsHollow{
     
     public static void main(String [] args){
 
