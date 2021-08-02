@@ -4,10 +4,10 @@ public class MagicArray{
 
     public static void main(String [] args){
 
-        int [] arr1 = {21, 3, 7, 9, 11, 4, 6};
-        int [] arr2 = {13, 4, 4, 4, 4};
-        int [] arr3 = {10, 5, 5};
-        int [] arr4 = {0, 6, 8, 20};
+        int [] arr1 = {21, 3, 7, 9, 11, 4, 6}; // res = 21 , return 1
+        int [] arr2 = {13, 4, 4, 4, 4};  // res = 13 , return 1
+        int [] arr3 = {10, 5, 5};  // res = 10 , return 1
+        int [] arr4 = {0, 6, 8, 20};  // res = 0 , return 0 -> sum of primes is zero, and it is equeal to the first element in the arrat, it shoudl be return 1
         int [] arr5 = {3};
         int [] arr6 = {8, 5, -5, 5, 3};
 
@@ -17,7 +17,6 @@ public class MagicArray{
         System.out.println(isMagicArray(arr4));
         System.out.println(isMagicArray(arr5));
         System.out.println(isMagicArray(arr6));
-
     }
     static int isMagicArray (int[] a) {
         
@@ -36,19 +35,20 @@ public class MagicArray{
         }
     }
     static boolean isPrime(int n){
-        int r = 0;
+        
+        int counter = 2;
+        boolean flag = true;
 
-        r = n/2;
-
-        if(n == 0 || n == 1 || n < 0){
+        if(n == 0 || n == 1 || n < 0)
             return false;
-        }else{
-            for(int i = 2; i < n; i++){
-                if (n%i == 0){
-                    return false;
-                }
+
+        while(counter <= n / 2){
+            if(n % counter == 0){
+                flag = false;
+                break;
             }
+            counter += 1;
         }
-        return true;
+        return flag;
     }
 }
