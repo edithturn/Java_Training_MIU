@@ -3,6 +3,7 @@
 public class RecerseInteger{
 
     public static void main(String[] args){
+        
         int n1 = 1234;
         int n2 = 12005;
         int n3 = 1;

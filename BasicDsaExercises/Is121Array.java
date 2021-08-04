@@ -57,9 +57,6 @@ public class Is121Array{
         l -= 1;
     }
 
-    //System.out.println("left" + one_left);
-    //System.out.println("middle" + middle);
-    //System.out.println("right" + one_right);
     if (one_left == a.length ||  one_right ==  a.length || one_left + middle + one_right != a.length)
         return 0;
 
