@@ -11,7 +11,7 @@
 //           3^3 = 27
 
 
-public class GetExponent{
+public class GetExponentI{
 
     public static void main(String [] args){
 
