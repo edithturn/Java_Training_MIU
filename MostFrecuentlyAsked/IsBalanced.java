@@ -8,7 +8,7 @@ public class IsBalanced{
         int a [] = {-2, 3, 2, -3}; // 1
         int b [] =  {-2, 2, 2, 2}; // 0
         int c [] = {-5, 2, -2};    // 0
-        int d [] = {-5, 5, -8, 8}; 
+        int d [] = {-5, 5, -8, 8};  // 1
 
         System.out.println(isBalanced(a));
         System.out.println(isBalanced(b));

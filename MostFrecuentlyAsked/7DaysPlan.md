@@ -1,8 +1,8 @@
 ## DAY 01
 
-- [ ] even subset
-- [ ] twinoid
-- [ ] balanced array
+- [x] even subset
+- [x] twinoid
+- [x] balanced array
 - [ ] hasSmallFactors
 - [ ] fill
 - [ ] hollow
