@@ -3,11 +3,11 @@
 - [x] even subset
 - [x] twinoid
 - [x] balanced array
-- [ ] hasSmallFactors
-- [ ] fill
-- [ ] hollow
-- [ ] is MeeraArray
-- [ ] meera number
+- [x] hasSmallFactors
+- [x] fill
+- [x] hollow
+- [x] is MeeraArray
+- [x] meera number
 
 
 
