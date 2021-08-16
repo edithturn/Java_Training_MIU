@@ -13,8 +13,8 @@
 
 ## DAY 02
 
-- [ ] bean array
-- [ ] factor two count
+- [x] bean array
+- [x] factor two count
 - [ ] bunker array
 - [ ] good spread
 - [ ] nice array
