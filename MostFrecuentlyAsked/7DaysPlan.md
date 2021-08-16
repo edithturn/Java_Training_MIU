@@ -16,10 +16,10 @@
 - [x] bean array
 - [x] factor two count
 - [x] bunker array
-- [ ] good spread
-- [ ] nice array
-- [ ] isSym symmetric array
-- [ ] isSub subarray
+- [x] good spread
+- [x] nice array
+- [x] isSym symmetric array
+- [x] isSub subarray
 - [ ] evenSpaced
 
 ## DAY 03
