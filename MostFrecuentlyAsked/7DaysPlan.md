@@ -20,7 +20,7 @@
 - [x] nice array
 - [x] isSym symmetric array
 - [x] isSub subarray
-- [ ] evenSpaced
+- [x] evenSpaced
 
 ## DAY 03
 
