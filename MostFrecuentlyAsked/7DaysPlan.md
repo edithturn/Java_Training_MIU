@@ -15,7 +15,7 @@
 
 - [x] bean array
 - [x] factor two count
-- [ ] bunker array
+- [x] bunker array
 - [ ] good spread
 - [ ] nice array
 - [ ] isSym symmetric array
