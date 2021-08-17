@@ -25,8 +25,8 @@
 ## DAY 03
 
 - [x] count digit
-- [ ] even spaced
-- [ ] wave array
+- [x] even spaced
+- [x] wave array
 - [ ] sum is power
 - [ ] min distance
 - [ ] has k small factor
