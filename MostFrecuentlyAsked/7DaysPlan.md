@@ -27,8 +27,8 @@
 - [x] count digit
 - [x] even spaced
 - [x] wave array
-- [ ] sum is power
-- [ ] min distance
+- [x] sum is power
+- [x] min distance
 - [ ] has k small factor
 - [ ] min prime distance
 - [ ] count digit
