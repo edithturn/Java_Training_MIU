@@ -31,7 +31,7 @@
 - [x] min distance
 - [x] has k small factor
 - [ ] min prime distance
-- [ ] count digit
+- [x] count digit
 
 ## DAY 04
 
