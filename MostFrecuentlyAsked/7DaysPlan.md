@@ -24,7 +24,7 @@
 
 ## DAY 03
 
-- [ ] count digit
+- [x] count digit
 - [ ] even spaced
 - [ ] wave array
 - [ ] sum is power

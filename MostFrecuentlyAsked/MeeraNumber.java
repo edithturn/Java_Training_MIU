@@ -8,7 +8,7 @@ class MeeraNumber{
         System.out.println(isMeera(6));  // 1
         System.out.println(isMeera(30)); // 1
         System.out.println(isMeera(21)); // 0
-        System.out.println(isMeera(2)); // 0
+        System.out.println(isMeera(2));  // 0
     }
 
     static int isMeera(int n){
