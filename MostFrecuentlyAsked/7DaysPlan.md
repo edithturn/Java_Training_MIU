@@ -29,7 +29,7 @@
 - [x] wave array
 - [x] sum is power
 - [x] min distance
-- [ ] has k small factor
+- [x] has k small factor
 - [ ] min prime distance
 - [ ] count digit
 
