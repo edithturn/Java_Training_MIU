@@ -1,4 +1,4 @@
-public class IsEvenSubset{
+public class IsFibonacci{
 
     public static void main( String [] args){
 

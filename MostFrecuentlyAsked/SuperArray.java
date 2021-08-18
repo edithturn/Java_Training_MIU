@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Fill{
+class SuperArray{
 
     public static void main(String [] args){
        
