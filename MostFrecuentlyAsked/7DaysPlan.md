@@ -38,8 +38,8 @@
 - [x] isFibonacci
 - [x] super array
 - [x] fancy number
-- [ ] maxmin equal,
-- [ ] is121array
+- [x] maxmin equal,
+- [x] is121array
 - [ ] max occur digit
 - [ ] max distance
 - [ ] odd heavy
