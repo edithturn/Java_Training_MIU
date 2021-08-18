@@ -35,7 +35,7 @@
 
 ## DAY 04
 
-- [ ] isFibonacci
+- [x] isFibonacci
 - [ ] super array
 - [ ] fancy number
 - [ ] maxmin equal,
