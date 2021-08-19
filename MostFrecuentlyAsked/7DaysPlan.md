@@ -42,7 +42,7 @@
 - [x] is121array
 - [ ] max occur digit
 - [ ] min distance
-- [ ] odd heavy
+- [x] odd heavy
 
 ## DAY 05 
 
