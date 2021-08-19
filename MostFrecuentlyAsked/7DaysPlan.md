@@ -46,7 +46,7 @@
 
 ## DAY 05 
 
-- [ ] paired
+- [x] paired
 - [ ] getExponent
 - [ ] hasSingleMode
 - [ ] stuff array
