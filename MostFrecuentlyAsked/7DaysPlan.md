@@ -47,7 +47,7 @@
 ## DAY 05 
 
 - [x] paired
-- [ ] getExponent
+- [x] getExponent
 - [ ] hasSingleMode
 - [ ] stuff array
 - [ ] pascal number
