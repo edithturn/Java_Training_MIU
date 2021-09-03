@@ -70,7 +70,7 @@
 ## DAY 07
 - [ ] factor equal
 - [ ] smart number
-- [ ] isTwin
+- [x] isTwin
 - [x] set equal
 - [x] isContinuousFactored
 - [x] count digit
