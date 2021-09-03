@@ -74,8 +74,8 @@
 - [ ] set equal
 - [ ] isContinuousFactored
 - [ ] count digit
-- [ ] isCentered
-- [ ] prime product
+- [x] isCentered
+- [x] prime product
 
 
 
