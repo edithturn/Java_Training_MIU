@@ -73,7 +73,7 @@
 - [ ] isTwin
 - [ ] set equal
 - [ ] isContinuousFactored
-- [ ] count digit
+- [x] count digit
 - [x] isCentered
 - [x] prime product
 
