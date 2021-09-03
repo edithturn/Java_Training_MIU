@@ -72,7 +72,7 @@
 - [ ] smart number
 - [ ] isTwin
 - [ ] set equal
-- [ ] isContinuousFactored
+- [x] isContinuousFactored
 - [x] count digit
 - [x] isCentered
 - [x] prime product
