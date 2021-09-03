@@ -18,35 +18,20 @@ public class IsBalanced{
     }
 static int isBalanced (int [ ] a){
 
-    int [] b = orderArray(a);
+    int expectedNumber = 0;
+    int flag = 0;
 
-    if(b.length % 2 != 0)
-        return 0;
-
-    for (int i = 0; i < b.length; i++){
-        if (i < b.length/2){
-            if(b[i] + b[b.length -1 - i] != 0){
-                return 0;
-            }
-        }
-        else
-            break;
-    }
-    return 1;
-
-}
-static int [] orderArray(int [] a){
-    int tmp = 0;
-    for(int i = 0; i< a.length; i++){
+    for (int i = 0; i < a.length; i++){
+        expectedNumber = -a[i];
         for(int j = 0; j < a.length; j++){
-            if(a[j] > a[i]){
-                tmp = a[j];
-                a[j] = a[i];
-                a[i] = tmp; 
-            }
+            if (a[j] == expectedNumber){
+                flag = 1;
+                break;
+            }            
         }
+        if(flag == 0)
+            return 0;
+        }
+    return flag;
     }
-    return a;
-}
-
 }
