@@ -69,7 +69,7 @@
 
 ## DAY 07
 - [ ] factor equal
-- [ ] smart number
+- [x] smart number
 - [x] isTwin
 - [x] set equal
 - [x] isContinuousFactored
