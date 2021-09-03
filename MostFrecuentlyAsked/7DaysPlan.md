@@ -71,7 +71,7 @@
 - [ ] factor equal
 - [ ] smart number
 - [ ] isTwin
-- [ ] set equal
+- [x] set equal
 - [x] isContinuousFactored
 - [x] count digit
 - [x] isCentered
