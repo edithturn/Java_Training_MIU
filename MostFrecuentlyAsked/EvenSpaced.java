@@ -22,7 +22,7 @@ class EvenSpaced{
         int largest = a[0];
         int smallest = a[1];
 
-        for(int i = 2; i < a.length; i++){
+        for(int i = 0; i < a.length; i++){
             if(a[i] > largest)
                 largest = a[i];
             if(a[i] < smallest)

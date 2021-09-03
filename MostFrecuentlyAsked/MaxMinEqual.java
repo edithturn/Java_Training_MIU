@@ -16,47 +16,37 @@ class GoodSpread{
 		System.out.println(isMaxMinEqual(arr2)); // 0		
 		System.out.println(isMaxMinEqual(arr3)); // 1		
 		System.out.println(isMaxMinEqual(arr4)); // 1		
-		System.out.println(isMaxMinEqual(arr5)); // 0       
-
-
+		System.out.println(isMaxMinEqual(arr5)); // 0
     }
 
     static int isMaxMinEqual(int[ ] a) {
 
-        int tmp = 0;
-        int rep = 0;
+        if(a.length <= 1)
+            return 0;
 
-        if(a.length == 0 || a.length == 1)
-            return 0;
-        if(a[0] == a[a.length - 1])
-            return 0;
+        int higher = a[0];
+        int lower = a[1];        
+      
         for(int i = 0; i < a.length; i++){
-            for(int j =0; j < a.length; j++){
-                if(a[j] > a[i]){
-                    tmp = a[i];
-                    a[i] = a[j];
-                    a[j] = tmp;
-                }              
-            }      
-        
+            if(a[i] > higher)
+                higher = a[i];
+            if(a[i] < lower)
+                lower = a[i];
         }
-        //System.out.println(Arrays.toString(a));
+        if(lower == higher)
+            return 0;
 
-        int first = 0;
-        int second = 0;
+        int higher_count = 0;
+        int lower_count = 0;
 
-        for(int i  = 0; i < a.length; i++){
-            if(a[i] == a[0]){
-
-                first++;
-                if(a[a.length - 1 - i] == a[a.length - 1])
-                    second++;
-            }
+        for(int k = 0; k < a.length; k++){
+            if(a[k] == higher)
+                higher_count++;
+            if(a[k] == lower)
+                lower_count++;
         }
-
-        if(first == second)
+        if(higher_count == lower_count)
             return 1;
-        else
-            return 0;       
+        return 0;
     }
 }
