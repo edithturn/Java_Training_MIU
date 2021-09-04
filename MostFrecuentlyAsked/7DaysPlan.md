@@ -64,7 +64,7 @@
 - [ ] isComplete complete array
 - [ ] Guthrie number
 - [ ] Daphne array
-- [ ] triple array
+- [x] triple array
 
 
 ## DAY 07
