@@ -61,7 +61,7 @@
 - [ ] odd spaced
 - [ ] Riley number
 - [ ] Normal number
-- [ ] isComplete complete array
+- [x] isComplete complete array
 - [ ] Guthrie number # ?
 - [x] Daphne array
 - [x] triple array
