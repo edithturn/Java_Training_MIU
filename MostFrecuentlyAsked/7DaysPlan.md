@@ -51,7 +51,7 @@
 - [ ] hasSingleMode
 - [ ] stuff array
 - [ ] pascal number
-- [ ] fancy number
+- [x] fancy number
 - [x] filter array
 - [x] dual array
 
