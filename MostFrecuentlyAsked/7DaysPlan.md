@@ -57,7 +57,7 @@
 
 ## DAY 06
 
-- [ ] bunker number
+- [x] bunker number
 - [x] odd spaced
 - [x] Riley number
 - [x] Normal number
