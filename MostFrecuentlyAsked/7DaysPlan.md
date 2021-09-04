@@ -62,8 +62,8 @@
 - [ ] Riley number
 - [ ] Normal number
 - [ ] isComplete complete array
-- [ ] Guthrie number
-- [ ] Daphne array
+- [ ] Guthrie number # ?
+- [x] Daphne array
 - [x] triple array
 
 
