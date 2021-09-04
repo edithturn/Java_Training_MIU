@@ -60,7 +60,7 @@
 - [ ] bunker number
 - [ ] odd spaced
 - [ ] Riley number
-- [ ] Normal number
+- [x] Normal number
 - [x] isComplete complete array
 - [x] Guthrie number # check
 - [x] Daphne array
