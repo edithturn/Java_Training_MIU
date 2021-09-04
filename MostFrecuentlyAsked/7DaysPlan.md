@@ -62,7 +62,7 @@
 - [ ] Riley number
 - [ ] Normal number
 - [x] isComplete complete array
-- [ ] Guthrie number # ?
+- [x] Guthrie number # check
 - [x] Daphne array
 - [x] triple array
 
