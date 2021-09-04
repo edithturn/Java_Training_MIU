@@ -53,7 +53,7 @@
 - [ ] pascal number
 - [ ] fancy number
 - [ ] filter array
-- [ ] dual array
+- [x] dual array
 
 ## DAY 06
 

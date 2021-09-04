@@ -10,7 +10,6 @@ class DualArray{
         System.out.println(isDual(b)); // 0 
         System.out.println(isDual(c)); // 0
 
-
     }
 
     static int isDual (int[ ] a){
