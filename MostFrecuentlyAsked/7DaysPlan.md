@@ -50,7 +50,7 @@
 - [x] getExponent
 - [ ] hasSingleMode
 - [ ] stuff array
-- [ ] pascal number
+- [x] pascal number
 - [x] fancy number
 - [x] filter array
 - [x] dual array
