@@ -68,7 +68,7 @@
 
 
 ## DAY 07
-- [ ] factor equal
+- [x] factor equal
 - [x] smart number
 - [x] isTwin
 - [x] set equal
