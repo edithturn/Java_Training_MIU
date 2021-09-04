@@ -49,7 +49,7 @@
 - [x] paired
 - [x] getExponent
 - [ ] hasSingleMode
-- [ ] stuff array
+- [x] stuff array
 - [x] pascal number
 - [x] fancy number
 - [x] filter array
