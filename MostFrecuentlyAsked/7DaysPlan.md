@@ -58,8 +58,8 @@
 ## DAY 06
 
 - [ ] bunker number
-- [ ] odd spaced
-- [ ] Riley number
+- [x] odd spaced
+- [x] Riley number
 - [x] Normal number
 - [x] isComplete complete array
 - [x] Guthrie number # check
