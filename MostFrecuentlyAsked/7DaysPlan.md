@@ -37,7 +37,7 @@
 
 - [xx] isFibonacci
 - [xx] super array
-- [x] fancy number
+- [xx] fancy number
 - [x] maxmin equal,
 - [x] is121array
 - [ ] max occur digit
