@@ -48,7 +48,7 @@
 
 - [x] paired
 - [x] getExponent
-- [ ] hasSingleMode
+- [x] hasSingleMode
 - [x] stuff array
 - [x] pascal number
 - [x] fancy number
