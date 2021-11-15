@@ -7,21 +7,40 @@ public class OperatorsExercise {
     public static void main(String[] args) throws IOException{
         
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        String a = br.readLine();
-        String b = br.readLine();
+        
+        int a, b;
+        double x, y;
+        System.out.println("Write integer first number : ");
+        a = Integer.parseInt(br.readLine());
+
+        System.out.println("Write integer second number : ");
+        b = Integer.parseInt(br.readLine());
+
+        System.out.println("Write double first number : ");
+        x = Double.parseDouble(br.readLine());
+
+        System.out.println("Write double second number : ");
+        y = Double.parseDouble(br.readLine());
+        
+        System.out.println("=== Calculator Integer ===");
+        System.out.println("a + b = " + (a+b));
+        System.out.println("a - b = " + (a-b));
+        System.out.println("b - a = " + (b-a));
+        System.out.println("a * b = " + (a*b));
+        System.out.println("a / b = " + (a/b));
+        System.out.println("b / a = " + (b/a));
+        System.out.println("a % b = " + (a%b));
+        System.out.println("b % a = " + (b%a));
 
 
-        double aa = Double.parseDouble(a);
-        double bb = Double.parseDouble(b);
-        //double c = 2.5;
-        //double d = 1.5;
-
-        System.out.println("Integer Values");
-        System.out.println(aa+bb);
-        System.out.println(aa-bb);
-        System.out.println(aa*bb);
-        System.out.println(aa/bb);
-        System.out.println(aa%bb);
-
+        System.out.println("=== Calculator Decimals ===");
+        System.out.println("x + y = " + (x+y));
+        System.out.println("x - y = " + (x-y));
+        System.out.println("y - x = " + (y-x));
+        System.out.println("x * y = " + (x*y));
+        System.out.println("x / y = " + (x/y));
+        System.out.println("y / x = " + (y/x));
+        System.out.println("x % y = " + (x%y));
+        System.out.println("y % x = " + (y%x));
     }
 }
