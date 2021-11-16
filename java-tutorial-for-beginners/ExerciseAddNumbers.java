@@ -17,15 +17,20 @@ public class ExerciseAddNumbers {
         System.out.println("Would you like to add a number ? y | n ");
         option = br.readLine();
 
-        while(option.equals("y")){
-            
-            System.out.println("Type number : ");
-            number = Integer.parseInt(br.readLine());
-            total_sum += number;
-
-            System.out.println("Would you like to add a number ? y | n ");
-            option = br.readLine();            
+        if (option.equals("n")){
+            System.out.println("Bye");    
         }
-        System.out.println("Total sum is : " + total_sum);
-   }
+        else{
+            while(option.equals("y")){
+                
+                System.out.println("Type number : ");
+                number = Integer.parseInt(br.readLine());
+                total_sum += number;
+
+                System.out.println("Would you like to add a number ? y | n ");
+                option = br.readLine();            
+            }
+            System.out.println("Total sum is : " + total_sum);
+        }
+    }
 }
