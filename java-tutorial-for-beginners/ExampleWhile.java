@@ -11,7 +11,6 @@ public class ExampleWhile{
         System.out.println("Do you want to repeat?");
 
         String val = br.readLine();
-        int turn = 0;
 
         while(val.equals("s")){
             System.out.println("Repitiendo!!");
