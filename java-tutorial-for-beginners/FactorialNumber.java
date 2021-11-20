@@ -20,7 +20,7 @@ public class FactorialNumber {
             number = Integer.parseInt(br.readLine());
         }
         while(number >= 1){
-            total = total*number;
+            total *= number;
             number -= 1;
         }
         System.out.println("Factorial of giving number is " + total);    
