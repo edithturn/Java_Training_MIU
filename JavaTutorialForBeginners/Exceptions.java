@@ -5,7 +5,7 @@ import java.nio.Buffer;
 
 import org.xml.sax.InputSource;
 
-public class ExampleExceptions {
+public class Exceptions {
 
     public static void main(String [] aStrings){
 
@@ -14,7 +14,6 @@ public class ExampleExceptions {
             String s = br.readLine();
             int a = 5/0;
         } catch (IOException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         } catch(ArithmeticException ex2){
             System.out.println("Disiion with zero is not possible! ");
