@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class ExampleDoWhile{
+public class DoWhile{
 
     public static void main(String[] args) throws IOException{
         

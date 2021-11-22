@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.nio.Buffer;
 
 
-public class ExerciseApprovedSuspended{
+public class ApprovedSuspended{
 
     public static void main(String[] args) throws IOException{
    
