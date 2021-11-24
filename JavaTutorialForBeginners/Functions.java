@@ -1,4 +1,4 @@
-public class ExampleFunctions {
+public class Functions {
     static int multiplicationByThree(int p){
         int r = p *3;
         return r;

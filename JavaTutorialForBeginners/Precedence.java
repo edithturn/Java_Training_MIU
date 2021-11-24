@@ -1,4 +1,4 @@
-public class PrecedenceExample{
+public class Precedence{
 
     public static void main(String[] args){
         int a = 5;

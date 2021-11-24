@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 
 import javax.swing.text.StyleConstants;
 
-public class PrimeFunctionExercise {
+public class PrimeFunction {
 
     public static void main(String[] args) throws NumberFormatException, IOException{
 

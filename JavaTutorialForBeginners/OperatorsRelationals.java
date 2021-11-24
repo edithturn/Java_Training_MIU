@@ -1,4 +1,4 @@
-public class ExampleOperatorsRelationals {
+public class OperatorsRelationals {
 
     public static void main(String[] args){
 
