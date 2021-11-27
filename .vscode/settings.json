@@ -1,4 +1,4 @@
 {
-    "java.home": "/usr/lib/jvm/java-11-openjdk-amd64",
+    "java.home": "/opt/jdk/jdk-17.0.1+12",
     "maven.terminal.useJavaHome": true
 }

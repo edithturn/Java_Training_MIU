@@ -1,4 +1,4 @@
-public class MainCoche(){
+public class MainCoche{
 
     public static void main(String[] args){
         
